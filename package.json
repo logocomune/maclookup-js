@@ -1,0 +1,34 @@
+{
+  "name": "@logocomune/maclookup",
+  "description": "Node.js client library for maclookup.app REST API V2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/logocomune/maclookup-js.git"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "lru-cache": "^6.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "mocha": "^8.2.1"
+  },
+  "scripts": {
+    "test": "_mocha --recursive"
+  },
+  "keywords": [
+    "mac",
+    "mac vendor",
+    "mac address",
+    "maclookup",
+    "macaddress",
+    "mac address lookup"
+  ]
+}

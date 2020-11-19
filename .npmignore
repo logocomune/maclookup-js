@@ -1,0 +1,5 @@
+# Created by .ignore support plugin (hsz.mobi)
+.travis.yml
+*.tgz
+.idea/*
+*.iml
